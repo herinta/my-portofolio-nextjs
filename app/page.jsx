@@ -9,7 +9,9 @@ import Skills from "components/Skills";
 
 import Navbar from "components/Navbar";
 import HeroSection from "components/HeroSection";
-import Footer from "components/Footer";
+
+import  MyFooter from "components/MyFooter";
+
 
 
 
@@ -30,7 +32,7 @@ export default function Page() {
                     <ProjectsSection />
                     <EmailSection /> 
                 </div>
-                <Footer/>
+                <MyFooter/>
             </main>
         </>
     );

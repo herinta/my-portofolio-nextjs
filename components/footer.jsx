@@ -1,13 +1,13 @@
+import Link from 'next/link';
 
-const Footer = () => {
-  return (
-    <footer className="footer border z-10 border-t-gray-200 border-l-transparent border-r-transparent  ">
-      <div className="container py-6 px-8 flex justify-between">
-        
-        <p className="text-slate-600">All rights reserved.</p>
-      </div>
-    </footer>
-  );
+export function Footer() {
+    return (
+        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16">
+            <p className="text-sm">
+                <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
+                    Next.js on Netlify
+                </Link>
+            </p>
+        </footer>
+    );
 };
-
-export default Footer;
