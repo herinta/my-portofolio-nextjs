@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className="top-0 left-0 right-0 z-10 bg-opacity-100 pt-10 px-10 bg-[#F5DAD2] text-pink-500">
       <div className="bg-white rounded-2xl">
-        <div className="flex container lg:py-6 flex-wrap items-center justify-between  pl-10 py-2">
+        <div className="flex container lg:py-6 flex-wrap items-center justify-between  px-10 py-2">
         <Link
           href={"/"}
           className="text-2xl md:text-xl   font-semibold"

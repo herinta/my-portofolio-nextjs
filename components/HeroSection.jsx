@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-36 container mt-10 mx-auto px-12 py-16">
+    <section className="lg:py-36 container mt-10 mx-auto px-28 py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12 items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -16,11 +16,11 @@ const HeroSection = () => {
         >
           <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-pink-600 to-transparent rounded-full h-80 w-80 blur-3xl absolute top-[80%] left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-0 hidden md:flex"></div>
           
-          <div className="half-circle bg-white w-[250px] h-[250px] lg:w-[500px] lg:h-[550px] relative mb-16 md:mb-0">
+          <div className="half-circle bg-white w-[250px] h-[250px] md:w-[460px] md:h-[550px] relative mb-16 md:mb-0">
           <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-[45%] w-full"
               width={300}
               height={300}
             />

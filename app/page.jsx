@@ -19,12 +19,12 @@ export default function Page() {
     return (
         <>
             <CustomCursor />
-            <main className="flex min-h-screen flex-col bg-white">
+            <main className="flex min-h-screen flex-col bg-white ">
                 <Navbar />
                 <div className="bg-[#F5DAD2]">
                     <HeroSection />
                 </div>
-                <div className="container mt-20 md:-mt-16 mx-auto px-12">
+                <div className="container mt-20 md:-mt-16 mx-auto px-20">
                     <Skills />
                     <AboutSection />
                     <Experience />

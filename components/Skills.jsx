@@ -35,7 +35,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="px-4 ">
+    <div className="px-4 z-10 ">
       <motion.div
         ref={ref}
         variants={skillVariants}
