@@ -14,7 +14,7 @@ For it to be invoked, please either run this site locally with \`netlify dev\` o
 Edge Functions are framework-agnostic, but are also used behind the scenes to run Next.js Middleware on Netlify.
 There are advatanges to using Edge Functions directly, such as the ability to access & transform the response body.
 
-[See more examples](https://edge-functions-examples.netlify.app)
+[See more examples](https:/     /edge-functions-examples.netlify.app)
 `
 
 export default function FallbackPage() {

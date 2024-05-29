@@ -2,7 +2,6 @@ import AboutSection from "components/AboutSection";
 import CustomCursor from "components/CustomCursor";
 import EmailSection from "components/EmailSection";
 import Experience from "components/Experience";
-import Footer  from "components/Footer";
 
 import ProjectsSection from "components/ProjectsSection";
 import Service from "components/Service";
@@ -10,6 +9,7 @@ import Skills from "components/Skills";
 
 import Navbar from "components/Navbar";
 import HeroSection from "components/HeroSection";
+import Footer from "components/Footer";
 
 
 export default function Page() {
