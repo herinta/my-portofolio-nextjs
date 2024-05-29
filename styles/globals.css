@@ -4,33 +4,44 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    :not(pre) > code {
-        @apply px-1 py-0.5 font-mono rounded bg-neutral-900 text-yellow-200;
-        font-size: 0.9em;
-    }
 
-    h1 {
-        @apply mb-6 text-4xl font-bold tracking-tight md:text-5xl;
-    }
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-a {
-    @apply underline
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
-.markdown {
-    @apply mb-1;
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    overflow-x: hidden;
 }
 
-.alert .markdown {
-    @apply mb-0;
+.half-circle {
+  border-top-left-radius: 250px; /* for small screen size */
+  border-top-right-radius: 250px; /* for small screen size */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  overflow: hidden;
 }
 
-.markdown p {
-    @apply mb-3;
+@media (min-width: 1024px) {
+  .half-circle {
+      border-top-left-radius: 550px; /* for large screen size */
+      border-top-right-radius: 550px; /* for large screen size */
+  }
 }
 
-.btn:disabled {
-    @apply text-neutral-400 bg-neutral-700;
-}
