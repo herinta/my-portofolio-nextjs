@@ -29,7 +29,7 @@ export default function Page() {
                     <ProjectsSection />
                     <EmailSection /> 
                 </div>
-                <Footer />
+                <Footer/>
             </main>
         </>
     );
