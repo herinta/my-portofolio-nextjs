@@ -1,6 +1,6 @@
 
 
-export const MyFooter = () => {
+const MyFooter = () => {
   return (
     <footer className="footer border z-10 border-t-gray-200 border-l-transparent border-r-transparent  ">
     <div className="container py-6 px-8 flex justify-between">
@@ -10,3 +10,5 @@ export const MyFooter = () => {
   </footer>
   )
 }
+
+export default MyFooter
