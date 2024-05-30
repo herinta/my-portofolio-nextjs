@@ -66,7 +66,7 @@ const ServiceCard = ({ icon, title, details, from }) => {
       transition={{ duration: 1 }}
     >
       <div className="mb-8 rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10 h-80 relative bg-white">
-        <div className={`mb-8 flex h-[70px] w-[70px] p-3 items-center justify-center rounded-2xl bg-primary`}>
+        <div className={`mb-8 flex h-[70px] w-[70px] p-3 items-center justify-center rounded-2xl bg-pink-200`}>
           <Image 
             src={icon}
             width={46}

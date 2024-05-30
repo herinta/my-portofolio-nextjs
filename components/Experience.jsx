@@ -27,7 +27,7 @@ const experiences = [
 const Experience = () => {
   return (
     <div className="md:grid md:grid-cols-2 gap-8">
-      <div className="w-full py-20 px-10">
+      <div className="w-full py-20 px-0 md:px-10">
         <div className="">
           <h2 className="text-4xl font-bold mb-10 md:mb-20">Experience</h2>
         </div>
@@ -37,7 +37,7 @@ const Experience = () => {
           ))}
         </ol>
       </div>
-      <div className="w-full py-20 px-10">
+      <div className="w-full py-20 px-0 md:px-10">
         <div className="">
           <h2 className="text-4xl font-bold mb-10 md:mb-20">Education</h2>
         </div>
@@ -75,7 +75,7 @@ const ExperienceItem = ({ experience }) => {
       initial="hidden"
       animate={controls}
       variants={variants}
-      className="mb-10 ml-4 bg-transparent border border-pink-200 py-5 px-6 "
+      className="mb-10 ml-4 bg-transparent border border-secondary-200 py-5 px-6 "
     >
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">

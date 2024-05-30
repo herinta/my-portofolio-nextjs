@@ -41,14 +41,11 @@ const AboutSection = () => {
         >
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am an expert who specializes in custom website development using
-            React.js and creating beautiful UI/UX designs. With our dedication
-            to cutting-edge technology and thoughtful design, we are ready to
-            help you realize your vision. We believe that an attractive and
-            high-performing website is the key to online success, and we will
-            work tirelessly to deliver the best results for your project.
-            Customer support is our top priority, and we are committed to
-            ensuring your satisfaction every step of the way.
+          Iam an Informatics student who has a great interest in web development. 
+          I am experienced in using HTML, CSS, JavaScript, as well as frameworks such as React and Next.js. 
+          With experience in various web projects, I am always eager to learn new technologies and implement innovative solutions. 
+          My commitment to quality and detail, as well as the ability to work both in a team and independently, 
+          makes me ready to contribute to the web development industry.
           </p>
           <div className="w-full">
             <AchievementsSection />

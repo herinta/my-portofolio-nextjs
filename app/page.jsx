@@ -24,7 +24,7 @@ export default function Page() {
                 <div className="bg-[#F5DAD2]">
                     <HeroSection />
                 </div>
-                <div className="container mt-20 md:-mt-16 mx-auto px-20">
+                <div className="container mt-20 md:-mt-16 mx-auto px-6 md:px-20">
                     <Skills />
                     <AboutSection />
                     <Experience />

@@ -42,7 +42,7 @@ const Skills = () => {
         initial="hidden"
         animate={controls}
       >
-        <div className="bg-white py-8 px-16 flex flex-col sm:flex-row items-center w-full justify-between shadow-xl rounded-xl gap-10">
+        <div className="bg-white py-8 px-10 md:px-16 flex flex-wrap sm:flex-row items-center justify-between shadow-xl rounded-xl gap-10 ">
           {skillsData.map((skill, index) => (
             <motion.div
               key={index}
