@@ -16,7 +16,7 @@ const Service = () => {
               transition={{ duration: 1 }}
             >
               <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-                What I Do
+                What Do I Do
               </h2>
               <p className="text-base text-body-color">
                 There are many variations of passages of Lorem Ipsum available
@@ -28,6 +28,18 @@ const Service = () => {
         <div className="flex flex-wrap -mx-4 relative">
           <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-pink-600 to-transparent rounded-full h-80 w-80 blur-3xl absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"></div>
           <ServiceCard
+            title="Create Custom Website"
+            details="Create a dynamic and responsive website using ReactJs or php technology with firebase or sql database."
+            icon="/images/coding.png"
+            from="left"
+          />
+          <ServiceCard
+            title="Create Responsive Website"
+            details="Hosting services that are ready to take your web to the next level"
+            icon="/images/cloud-server.png"
+            from="right"
+          />
+            <ServiceCard
             title="Create Custom Website"
             details="Create a dynamic and responsive website using ReactJs or php technology with firebase or sql database."
             icon="/images/coding.png"

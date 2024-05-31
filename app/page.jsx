@@ -27,7 +27,7 @@ export default function Page() {
                 <div className="container mt-20 md:-mt-16 mx-auto px-6 md:px-20">
                     <Skills />
                     <AboutSection />
-                    <Experience />
+                    {/* <Experience /> */}
                     <Service />
                     <ProjectsSection />
                     <EmailSection /> 
