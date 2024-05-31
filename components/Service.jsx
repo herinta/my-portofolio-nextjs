@@ -28,26 +28,26 @@ const Service = () => {
         <div className="flex flex-wrap -mx-4 relative">
           <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-pink-600 to-transparent rounded-full h-80 w-80 blur-3xl absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"></div>
           <ServiceCard
-            title="Create Custom Website"
-            details="Create a dynamic and responsive website using ReactJs or php technology with firebase or sql database."
+            title="Front-End Development"
+            details="Employ JavaScript and frameworks such as React, nextjs to build dynamic and interactive user interfaces. Focus on optimal user experience (UX) and intuitive design."
             icon="/images/coding.png"
             from="left"
           />
           <ServiceCard
             title="Create Responsive Website"
-            details="Hosting services that are ready to take your web to the next level"
-            icon="/images/cloud-server.png"
+            details="Utilize the latest technologies such as HTML5, CSS3, and frameworks like Bootstrap or Tailwind CSS to ensure websites function seamlessly across various devices and screen sizes."
+            icon="/images/coding.png"
             from="right"
           />
             <ServiceCard
-            title="Create Custom Website"
-            details="Create a dynamic and responsive website using ReactJs or php technology with firebase or sql database."
-            icon="/images/coding.png"
+            title="API Integration"
+            details="Implement and integrate APIs to connect websites with third-party services or backends. Use technologies like RESTful API and GraphQL for efficient communication between the front-end and back-end."
+            icon="/images/cloud-server.png"
             from="left"
           />
           <ServiceCard
-            title="Create Responsive Website"
-            details="Hosting services that are ready to take your web to the next level"
+            title="Web Performance Optimization"
+            details="Enhance website speed and performance through optimization techniques such as lazy loading, CSS/JS minification, and caching. Ensure fast and responsive websites for a better user experience."
             icon="/images/cloud-server.png"
             from="right"
           />
