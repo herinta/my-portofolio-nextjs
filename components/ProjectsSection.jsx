@@ -78,6 +78,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "http://berkahbusana.my.id/",
   },
+  {
+    id: 9,
+    title: "Sportify (On Progress",
+    description: "",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://sportify-id.vercel.app",
+  },
  
 ];
 
